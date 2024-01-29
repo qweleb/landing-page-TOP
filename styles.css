@@ -91,6 +91,7 @@ p {
     padding-right: 24px;
     color: #f9faf8;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 #image_placeholder {
@@ -166,6 +167,7 @@ p {
     padding-right: 48px;
     padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 .cta-left {
@@ -184,6 +186,7 @@ p {
     height: 180px;
     width: 180px;
     border: solid #3882f6;
+    border-radius: 10px;
 }
 
 .w-border {
