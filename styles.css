@@ -80,7 +80,6 @@ p {
 
 #section {
     display: flex;
-    border: solid green;
     justify-content: center;
 }
 
