@@ -22,6 +22,7 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
 }
 
 h3 {
@@ -65,6 +66,10 @@ p {
 
 .blue-bg {
     background-color: #3882f6;
+}
+
+.white-bg {
+    background-color: white;
 }
 
 #section {
@@ -128,4 +133,28 @@ p {
 .padded {
     padding-top: 48px;
     padding-bottom: 48px;
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.gallery-frame {
+    height: 180px;
+    width: 180px;
+    border: solid #3882f6;
 }
