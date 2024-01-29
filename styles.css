@@ -80,7 +80,15 @@ p {
     padding-right: 8px;
     color: #f9faf8;
     font-size: 18px;
-    width: 100px;
+}
+
+#image_placeholder {
+    background-color: #222222;
+    color: #f9faf8;
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .plate {
@@ -104,5 +112,20 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 6px;
+    gap: 10px;
+    flex: 1;
+    height: 100%;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.padded {
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
